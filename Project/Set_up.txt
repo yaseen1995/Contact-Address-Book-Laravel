@@ -1,0 +1,12 @@
+1.) Install WampServer, as normal settings, to get the servers running, with localhost as the defualt name.
+2.) In .ENV file, make sure DB_DATABASE=addressbook, DB_USERNAME=root
+ DB_PASSWORD= , and create a database called addressbook
+3.) Install composer, and use the current Laravel project that has been created.
+4.) Import the addressbook.sql file in in the addressbookdatabase in PHPMyAdmin which is located outside of the addressBook laravel project folder. This will retrieve all the relevant tables and information.
+5.) Save the addressbook Laravel project folder in the 'www' folder where wamp is set up. 
+This is found with the following patch on a windows machine:
+
+C:\wamp64\www
+
+6.) type in localhost in the browser URL will allow you to see the students folder, This is the URL PATH: http://localhost/addressBook/public/
+
